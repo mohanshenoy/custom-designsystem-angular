@@ -1,0 +1,22 @@
+<!-- <ng-content></ng-content> -->
+<div class="modal fade" id={{ucId}} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" >{{title}}</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <i class="{{icon}}"></i>&nbsp;{{body}}
+        </div>
+        <div class="modal-footer">
+          <button uc-base-button 
+            label="{{cancelLabel}}" class="btn btn-danger" icon="bi bi-x"
+            data-bs-dismiss="modal"></button>
+          <button uc-base-button 
+            label="{{confirmLabel}}" class="btn btn-success" icon="bi bi-check2"
+            (click)="__onDialogSubmit()"></button>
+        </div>
+      </div>
+    </div>
+</div>
