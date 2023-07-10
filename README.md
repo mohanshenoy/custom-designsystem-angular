@@ -1,3 +1,32 @@
+# Create design system with angular
+
+## button configurations
+
+label ,class , icon inside the element -> configure
+id, name, value , data-\* , tabindex , methods and all rest of the attributes -> pass as is
+
+## dialog box configurations
+
+id
+title
+body
+icon
+cancel label
+confirm label
+submit callback method
+
+## references
+
+https://www.linkedin.com/advice/0/how-do-you-use-value-attribute-pass-data-from-html-button
+https://www.w3schools.com/tags/tag_button.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey
+https://design-system.w3.org/styles/svg-icons.html
+https://iconsvg.xyz/
+https://icons.getbootstrap.com
+https://sergeygultyayev.medium.com/how-to-build-a-scalable-angular-design-system-3f2b501eace1
+https://sergeygultyayev.medium.com/how-to-make-a-button-in-angular-a54d9e035a9f
+https://sergeygultyayev.medium.com/design-better-angular-components-2b89d27b262d
+
 # CustomDesignsystemAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
